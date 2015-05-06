@@ -1,0 +1,32 @@
+body{
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/0/08/Portland_Night_panorama.jpg");
+  height: 500px;
+}
+
+body h1 {
+  color: white;
+  text-align: center;
+}
+
+.login {
+  color: #9BBAB8; 
+  
+}
+
+.signup {
+  color: #A3C7A7;
+
+}
+
+.form1 {
+  width: 32%;
+}
+
+.form2 {
+  width: 33%;
+}
+
+.fieldtop {
+  margin-top: 5px;
+}
+

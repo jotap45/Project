@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Project</title>
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+  </head>
+  <body>
+    <div class="MainTitle">
+      <h1>WELCOME TO MY PROJECT SITE</h1>
+    </div>
+    <div class="login">
+      <h2>LOGIN</h2>
+      <form action="/login" method="post" class="form1">
+        <div class="loginlabel">
+          <label for="loginname">Email:</label>
+          <input type="email" name="loginname" placeholder="Enter your email" style="float:right;"><br>
+        </div>
+        <div class="passwordlabel" style="margin-top:5px;">
+          <label for="loginpassword" method="post">Password:</label>
+          <input type="password" name="password" placeholder="Enter your password" style="float:right;">
+          <br>
+        </div>
+        <div>
+          <input type="submit" value="Submit" style="margin-top:5px">
+        </div>
+      </form>
+    </div>
+    <br>
+    <div class="signup">
+      <h2>PLEASE SIGN UP</h2>
+      <form action="/signup" method="post" class="form2">
+        <div class="fieltop">
+          <label for="firstname">First Name:</label>
+          <input type="text" name="firstname" style="float:right;">
+          <br>
+        </div>
+        <div class="fieldtop">
+          <label for="lastname">Last Name:</label>
+          <input type="text" name="lastname" style="float:right">
+          <br>
+        </div>
+        <div class="fieldtop">
+          <label for="email">Email:</label>
+          <input type="email" name="email" style="float:right;">
+          <br>
+        </div>
+        <div class="fieldtop">
+          <label for="password">Password:</label>
+          <input type="password" name="password" style="float:right;">
+          <br>
+        </div>
+        <input type="submit" name="Submit" style="margin-top:5px;">
+      </form>  
+    </div>
+  </body>
+</html>
